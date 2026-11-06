@@ -1,0 +1,18 @@
+{
+  "RF": {
+    "maximum_additivity_error_C": 5.185123225004418e-05,
+    "explained_samples": 96,
+    "outputs": 9,
+    "background_rows": 100,
+    "model_seed": 0,
+    "interpretation": "one-step model attribution, not causation or rollout attribution"
+  },
+  "XGBoost": {
+    "maximum_additivity_error_C": 2.7830593850808327e-05,
+    "explained_samples": 96,
+    "outputs": 9,
+    "background_rows": 100,
+    "model_seed": 0,
+    "interpretation": "one-step model attribution, not causation or rollout attribution"
+  }
+}

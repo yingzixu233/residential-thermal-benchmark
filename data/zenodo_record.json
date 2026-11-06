@@ -1,0 +1,117 @@
+{
+  "created": "2023-11-19T15:23:31.000983+00:00",
+  "modified": "2023-11-19T15:27:49.042412+00:00",
+  "id": 10156745,
+  "conceptrecid": "10156744",
+  "doi": "10.5281/zenodo.10156745",
+  "conceptdoi": "10.5281/zenodo.10156744",
+  "doi_url": "https://doi.org/10.5281/zenodo.10156745",
+  "metadata": {
+    "title": "Automated Multi-Zone Model Generation",
+    "doi": "10.5281/zenodo.10156745",
+    "publication_date": "2023-11-19",
+    "description": "A script to automatically develop and generate multi-zone thermal model for residential buildings from measured data",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Vallianos, Charalampos",
+        "affiliation": null,
+        "orcid": "0000-0003-4208-5842"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/HarryVallianos/Automated-MultiZone-Model-Generation/tree/v1.0",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "version": "v1.0",
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10156744"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Automated Multi-Zone Model Generation",
+  "links": {
+    "self": "https://zenodo.org/api/records/10156745",
+    "self_html": "https://zenodo.org/records/10156745",
+    "preview_html": "https://zenodo.org/records/10156745?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.10156745",
+    "self_doi": "https://doi.org/10.5281/zenodo.10156745",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10156745",
+    "reserve_doi": "https://zenodo.org/api/records/10156745/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/10156744",
+    "parent_html": "https://zenodo.org/records/10156744",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10156744",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10156744",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10156745/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10156745/sequence/default",
+    "files": "https://zenodo.org/api/records/10156745/files",
+    "media_files": "https://zenodo.org/api/records/10156745/media-files",
+    "latest": "https://zenodo.org/api/records/10156745/versions/latest",
+    "latest_html": "https://zenodo.org/records/10156745/latest",
+    "versions": "https://zenodo.org/api/records/10156745/versions",
+    "draft": "https://zenodo.org/api/records/10156745/draft",
+    "access_links": "https://zenodo.org/api/records/10156745/access/links",
+    "access_grants": "https://zenodo.org/api/records/10156745/access/grants",
+    "access_users": "https://zenodo.org/api/records/10156745/access/users",
+    "access_request": "https://zenodo.org/api/records/10156745/access/request",
+    "access": "https://zenodo.org/api/records/10156745/access",
+    "communities": "https://zenodo.org/api/records/10156745/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10156745/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/10156745/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/10156745/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/10156745/quota-increase",
+    "requests": "https://zenodo.org/api/records/10156745/requests"
+  },
+  "updated": "2023-11-19T15:27:49.042412+00:00",
+  "recid": "10156745",
+  "revision": 6,
+  "files": [
+    {
+      "id": "a209bbad-4abd-481e-9856-7625ce4e0922",
+      "key": "HarryVallianos/Automated-MultiZone-Model-Generation-v1.0.zip",
+      "size": 47396,
+      "checksum": "md5:c40600b8d079cef6b293ac2286b81fcc",
+      "links": {
+        "self": "https://zenodo.org/api/records/10156745/files/HarryVallianos/Automated-MultiZone-Model-Generation-v1.0.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "566266"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 17,
+    "unique_downloads": 17,
+    "views": 157,
+    "unique_views": 147,
+    "version_downloads": 17,
+    "version_unique_downloads": 17,
+    "version_unique_views": 147,
+    "version_views": 157
+  },
+  "state": "done",
+  "submitted": true
+}

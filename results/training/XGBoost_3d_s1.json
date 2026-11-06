@@ -1,0 +1,26 @@
+[
+  {
+    "parameters": {
+      "n_estimators": 250,
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "reg_lambda": 5.0,
+      "subsample": 0.9,
+      "colsample_bytree": 1.0
+    },
+    "validation_rmse_C": 0.40300025416782154,
+    "history": []
+  },
+  {
+    "parameters": {
+      "n_estimators": 250,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "reg_lambda": 5.0,
+      "subsample": 0.9,
+      "colsample_bytree": 1.0
+    },
+    "validation_rmse_C": 0.39323150590952755,
+    "history": []
+  }
+]

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this benchmark and the original paper and dataset listed in README.md."
+title: "Residential Thermal Dynamics with Limited and Noisy Data: MLP, Random Forest, XGBoost and SHAP"
+type: software
+authors:
+  - family-names: Xu
+    given-names: Yingzi
+version: 1.0.0
+date-released: 2026-11-06
+license: AGPL-3.0-only
+repository-code: "https://github.com/yingzixu233/residential-thermal-benchmark"
+url: "https://github.com/yingzixu233/residential-thermal-benchmark"

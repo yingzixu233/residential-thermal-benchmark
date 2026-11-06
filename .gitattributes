@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.npz binary
+*.joblib binary
+data/house_data.csv -text

@@ -1,0 +1,20 @@
+[
+  {
+    "parameters": {
+      "n_estimators": 200,
+      "max_depth": 6,
+      "min_samples_leaf": 2
+    },
+    "validation_rmse_C": 0.3523209994808023,
+    "history": []
+  },
+  {
+    "parameters": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "validation_rmse_C": 0.35015815602449896,
+    "history": []
+  }
+]

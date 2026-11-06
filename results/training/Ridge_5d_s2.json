@@ -1,0 +1,30 @@
+[
+  {
+    "parameters": {
+      "alpha": 0.1
+    },
+    "validation_rmse_C": 0.23353893870023937,
+    "history": []
+  },
+  {
+    "parameters": {
+      "alpha": 1.0
+    },
+    "validation_rmse_C": 0.2599685899288905,
+    "history": []
+  },
+  {
+    "parameters": {
+      "alpha": 10.0
+    },
+    "validation_rmse_C": 0.3669742576304495,
+    "history": []
+  },
+  {
+    "parameters": {
+      "alpha": 100.0
+    },
+    "validation_rmse_C": 0.49944158312788306,
+    "history": []
+  }
+]

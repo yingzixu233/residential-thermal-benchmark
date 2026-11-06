@@ -1,0 +1,109 @@
+{
+  "arguments": {
+    "data": "data/house_data.csv",
+    "output": "results",
+    "days": [
+      3,
+      5,
+      10
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "noise": [
+      0.0,
+      0.2,
+      0.5
+    ],
+    "models": [
+      "Persistence",
+      "Ridge",
+      "MLP",
+      "MLP_noise",
+      "RF",
+      "XGBoost"
+    ],
+    "epochs": 1500
+  },
+  "data": {
+    "sha256": "d7da67d1be8e57be1419379f61ddc82fab737fc888141ac48754a898549f7bc8",
+    "rows": 385,
+    "features": [
+      "T01_TEMP",
+      "T02_TEMP",
+      "T03_TEMP",
+      "T04_TEMP",
+      "T05_TEMP",
+      "T06_TEMP",
+      "T07_TEMP",
+      "T08_TEMP",
+      "T09_TEMP",
+      "T01_Wh",
+      "T02_Wh",
+      "T03_Wh",
+      "T04_Wh",
+      "T05_Wh",
+      "T06_Wh",
+      "T07_Wh",
+      "T08_Wh",
+      "T09_Wh",
+      "Text",
+      "GHI"
+    ],
+    "targets": [
+      "T01_TEMP",
+      "T02_TEMP",
+      "T03_TEMP",
+      "T04_TEMP",
+      "T05_TEMP",
+      "T06_TEMP",
+      "T07_TEMP",
+      "T08_TEMP",
+      "T09_TEMP"
+    ],
+    "start": "2019-03-30 00:00:00",
+    "end": "2019-04-15 00:00:00",
+    "split_observations": {
+      "train": [
+        0,
+        240
+      ],
+      "validation": [
+        240,
+        288
+      ],
+      "test": [
+        288,
+        385
+      ]
+    },
+    "train_pairs": {
+      "3": 71,
+      "5": 119,
+      "10": 239
+    },
+    "validation_pairs": 47,
+    "test_pairs": 96,
+    "test_24h_origins": 73,
+    "split_bounds_are": "zero-based, stop-exclusive"
+  },
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "torch": "2.9.1+cpu",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "shap": "0.54.1"
+  },
+  "selection": "clean validation one-step RMSE, train-only scaling; no refit",
+  "noise": "Gaussian indoor-temperature inputs only; uncorrupted recorded targets; rollout initialization only",
+  "forcing": "recorded future heating/weather (conditional forecast)",
+  "horizon": 24,
+  "seed_sd": "sample SD across 3 seeds, not a confidence interval",
+  "wall_seconds": 67.88868630002253,
+  "complete": true
+}
