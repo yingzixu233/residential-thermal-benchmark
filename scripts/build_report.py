@@ -120,7 +120,7 @@ def main():
     page()
 
     # Page 4 is reserved for references, as requested.
-    add("References", "ReportTitle")
+    head("References")
     add("Supporting references for the three-page main report", "ReportSub")
     refs=[
       '[1] S. Vasisht et al. Physics vs structure: A systematic benchmark of learning strategies for multi-zone building thermal dynamics. Energy and Buildings 361, 117472 (2026). <link href="https://doi.org/10.1016/j.enbuild.2026.117472">doi:10.1016/j.enbuild.2026.117472</link>.',
@@ -132,8 +132,6 @@ def main():
     ]
     for ref in refs:
         add(ref, "ReportRef")
-    story.append(Spacer(1, 10))
-    add("<b>Reproducibility note.</b> Implementation and manuscript prepared with AI assistance. All reported experiments were executed from the included scripts. The public repository includes unchanged source data, all 162 evaluation settings, per-zone/per-horizon errors, fitted reference models and checked SHAP outputs.", "ReportSmall")
     def footer(canvas, doc):
         canvas.setStrokeColor(colors.HexColor("#c3ced2"))
         canvas.line(MARGIN, 29, letter[0]-MARGIN, 29)
