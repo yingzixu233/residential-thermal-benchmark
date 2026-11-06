@@ -12,7 +12,7 @@ multi-step curriculum, or its physics-constrained architectures.
 helps the MLP in the three-day regime, but does not consistently improve clean-data
 accuracy. The negative tree-baseline result is retained rather than retuned on test data.
 
-[Public repository](https://github.com/yingzixu233/residential-thermal-benchmark) | [Three-page individual report](report/individual_report.pdf)
+[Public repository](https://github.com/yingzixu233/residential-thermal-benchmark) | [Individual report: 3 pages + references](report/individual_report.pdf)
 
 ## Reproduce
 
@@ -149,7 +149,7 @@ establish physical consistency or explain the full recursive rollout.
 - `results/predictions/*.npz`: saved one-step and rollout arrays for all 162 settings.
 - `results/models/`: six ten-day seed-zero fitted models. Load only trusted joblib files.
 - `results/shap/`: raw attributions, feature rankings and additivity audit.
-- `report/individual_report.pdf`: three-page individual report.
+- `report/individual_report.pdf`: three-page main report plus a separate reference page; all four generated figures are included.
 - `scripts/build_report.py`: editable report source; all numerical tables read recorded results.
 
 ## Limits and scope
